@@ -7,96 +7,32 @@
     <title>Navbar</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        body{
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        .wrapper{
-            height: 100vh;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            gap:10px;
-        }
-       .header{
-        height: 30%;
-        background-color:yellow;
-       }
-       .main{
-        gap:10px;
-
-        width: 100%;
-        height: 70%;
-        background-color:yellow;
-        display: flex;
-       }
-       .nav{
-        width: 30%;
-       }
-       .inline{
-        width: 70%;
-        display: flex;
-        flex-direction: column;
-        gap:10px;
-       }
-       .in_inline{
-        height: 50%;
-        display: flex;
-        gap:10px;
-       }
-       .footer{
-        width: 50%;
-       }
-       .article{
-        width: 70%;
-       }
-       .ads{
-        width: 30%;
-       }
-
+       
     </style>
 </head>
 <body>
-   <nav class="navbar">
-        <h1 class="title">LogoBakery</h1>
-        <ul class="nav_list">
-            <li class="nav_item">Services</li>
-            <li class="nav_item">Projects</li>
-            <li class="nav_item">About</li>
-        </ul>
-        <button class="button">
-            Contact
-        </button>
-        <button class="button">
-            About
-        </button>
-        <button class="button">
-            Info
-        </button>
-   </nav>
-   <div class="wrapper">
-        <div class="header">
+    <div class="wrapper">
+        <div class="top">
             Header
         </div>
-        <div class="main">
-            <div class="nav">
+        <div class="bottom">
+            <div class="left">
                 Nav
             </div>
-            <div class="inline">
-                <div class="in_inline">
-                    <div class="article">
+            <div class="right">
+                <div class="right_top">
+                    <div class="right_top_left">
                         Article
                     </div>
-                    <div class="ads">
+                    <div class="right_top_right">
                         Ads
                     </div>
                 </div>
-                <div class="footer">
+                <div class="right_bottom">
                     Footer
                 </div>
             </div>
         </div>
-   </div>
+    </div>
 </body>
 </html>
